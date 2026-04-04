@@ -1,0 +1,20 @@
+{
+  "skill_name": "leads-esfriando",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Me mostra os leads que estão esfriando",
+      "expected_output": "Localiza leads.csv automaticamente. Filtra leads com ultimo_contato > 7 dias. Gera HTML com KPIs (total, valor em risco, média dias, propostas), barra de urgência e tabela detalhada ordenada por dias sem contato."
+    },
+    {
+      "id": 2,
+      "prompt": "Tem algum lead esfriando no arquivo clientes.csv?",
+      "expected_output": "Lê clientes.csv em vez do leads.csv padrão. Aplica mesma lógica de filtro e classificação. SE nenhum lead esfriando, gera HTML com mensagem positiva."
+    },
+    {
+      "id": 3,
+      "prompt": "Quais leads estão parados há mais de 10 dias?",
+      "expected_output": "Ajusta threshold de 7 para 10 dias. Reclassifica urgência proporcionalmente. Gera relatório com critério atualizado no footer."
+    }
+  ]
+}

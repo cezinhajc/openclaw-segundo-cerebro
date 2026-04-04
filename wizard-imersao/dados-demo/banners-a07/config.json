@@ -1,0 +1,24 @@
+{
+  "product_badge": "OpenClaw",
+  "h1": ["Em 3 dias, sem código,", "<em>configurei 7 agentes trabalhando por mim 24h.</em>"],
+  "pricing": {
+    "was": "R$297",
+    "value": "R$97",
+    "label": "Acesso vitalício",
+    "condition": "Condição de lançamento"
+  },
+  "output_dir": "/root/.openclaw/workspace-marketing/wizard-imersao/dados-demo/banners-a07",
+  "formats": ["post", "story"],
+  "copies": [
+    {
+      "key": "a07-hibrido",
+      "label": "A07 — Hook Híbrido (número + não-técnico)",
+      "subtitle": "O OpenClaw roda sozinho. Você recebe o relatório no <strong>Telegram</strong> — sem depender de dev, sem processo manual, sem complicação técnica.",
+      "cards": [
+        ["Sem linha de código", "Configure tudo pelo chat, em linguagem natural."],
+        ["7 agentes ativos", "Cada um com uma função, rodando 24h no piloto automático."],
+        ["Em 3 dias no ar", "Do zero ao operacional antes do fim de semana."]
+      ]
+    }
+  ]
+}
