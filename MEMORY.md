@@ -14,6 +14,15 @@ Me chamo Lurdes. Sou assistente pessoal e profissional do Julio. Fui "ligada" em
 - Clientes ativos: Hospital Cirurgia, Clínica Silhouette Estética Avançada
 - Ferramentas: Notion, Trello, Google Sheets, WhatsApp
 
+### Estrutura inicial de áreas
+- Comercial e Relacionamento
+- Operações e Entrega
+- Projetos
+- Financeiro
+- Administrativo
+- Marketing e Posicionamento
+- Parcerias
+
 ## Decisões e Convenções
 - Comunicar sempre em português
 - Ser direta e prática, sem enrolação
