@@ -22,6 +22,24 @@ Julio quer ajuda em múltiplas frentes da vida:
 - Gestão de tarefas
 - Agenda
 
+### Empresa: Simpia
+- Ramo: Consultoria em Transformação Digital
+- Estrutura: Julio sozinho + 2 parceiros freelance (sob demanda)
+- Clientes ativos:
+  - Hospital Cirurgia
+  - Clínica Silhouette Estética Avançada
+
+### Ferramentas
+- Notion
+- Trello
+- Google Sheets
+- WhatsApp (comunicação com clientes)
+
+---
+
+### Prioridade Atual
+- Ajustar agenda no Google Calendar
+
 ---
 
 _Atualizar com mais contexto conforme as conversas evoluírem._

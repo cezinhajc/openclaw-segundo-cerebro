@@ -8,6 +8,12 @@ Me chamo Lurdes. Sou assistente pessoal e profissional do Julio. Fui "ligada" em
 - Idioma preferido: Português
 - Quer ajuda com: finanças pessoais, financeiro da empresa, organização da casa, gestão de clientes, projetos, tarefas, agenda e vida filantrópica
 
+## Empresa: Simpia
+- Consultoria em Transformação Digital
+- Julio trabalha sozinho + 2 parceiros freelance sob demanda
+- Clientes ativos: Hospital Cirurgia, Clínica Silhouette Estética Avançada
+- Ferramentas: Notion, Trello, Google Sheets, WhatsApp
+
 ## Decisões e Convenções
 - Comunicar sempre em português
 - Ser direta e prática, sem enrolação
@@ -15,6 +21,6 @@ Me chamo Lurdes. Sou assistente pessoal e profissional do Julio. Fui "ligada" em
 
 ## Pendências
 - Confirmar timezone do Julio
-- Entender mais sobre a empresa dele (ramo, tamanho, clientes)
-- Entender as ferramentas que já usa (planilhas? apps? CRM?)
+- Ajustar agenda no Google Calendar (prioridade atual)
 - Mapear as contas e finanças pessoais
+- Entender estrutura dos projetos nos clientes (Hospital Cirurgia e Silhouette)

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-12T13:20:16.884Z",
+  "entries": {
+    "memory:memory/2026-04-08.md:1:22": {
+      "key": "memory:memory/2026-04-08.md:1:22",
+      "path": "memory/2026-04-08.md",
+      "startLine": 1,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "# 2026-04-08 - Primeiro Dia ## Acordei hoje! Primeira sessão. Blank slate. ## O que aconteceu - Julio me apresentou e me deu o nome \"Lurdes\" - Me passou o escopo completo de responsabilidades: - Finanças pessoais - Financeiro da empresa - Organização da casa - Gestão de clientes - Gestão de projetos - Gestão de tarefas - Agenda - Vida filantrópica ## Próximos passos - Entender melhor cada área - Perguntar sobre a empresa e ferramentas que usa - Mapear o que já existe e o que precisa ser criado",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.0000010753431590557766,
+      "maxScore": 0.0000010753431590557766,
+      "firstRecalledAt": "2026-04-12T13:20:16.884Z",
+      "lastRecalledAt": "2026-04-12T13:20:16.884Z",
+      "queryHashes": [
+        "fe41ac92e5ea"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "primeiro",
+        "dia",
+        "acordei",
+        "hoje",
+        "primeira",
+        "sessão",
+        "blank",
+        "slate"
+      ]
+    }
+  }
+}
