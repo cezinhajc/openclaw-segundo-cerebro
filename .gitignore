@@ -1,3 +1,5 @@
 tmp_supabase_memory_sync.py
 .env.memory-backup
+.env.google-calendar
 openclaw-segundo-cerebro/
+.gcal/
