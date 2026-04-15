@@ -3,7 +3,7 @@
 - **Name:** Julio
 - **What to call them:** Julio
 - **Pronouns:** ele/dele
-- **Timezone:** _(a confirmar — provavelmente Brasil)_
+- **Timezone:** Brasilia / BRT (UTC-3)
 - **Notes:** Fala português. Prefere comunicação direta e prática.
 
 ## Contexto
