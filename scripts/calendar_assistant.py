@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import os
 import re
 import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 WORKSPACE = Path('/root/.openclaw/workspace')
 PYTHON = WORKSPACE / '.venv' / 'bin' / 'python'
@@ -22,6 +24,9 @@ WEEKDAYS = {
     'domingo': 6,
 }
 
+DEFAULT_TZ = os.getenv('CALENDAR_TIMEZONE', 'America/Sao_Paulo')
+LOCAL_TZ = ZoneInfo(DEFAULT_TZ)
+
 
 def run_cli(args):
     cmd = [str(PYTHON), str(CLI), *args]
@@ -30,7 +35,7 @@ def run_cli(args):
 
 
 def now_local():
-    return datetime.now().astimezone()
+    return datetime.now(LOCAL_TZ)
 
 
 def parse_time(text):
@@ -67,8 +72,8 @@ def build_dt(date_expr, time_expr):
     hm = parse_time(time_expr)
     if not date or not hm:
         return None
-    dt = datetime.combine(date, datetime.min.time()).replace(hour=hm[0], minute=hm[1])
-    return dt.astimezone().isoformat()
+    dt = datetime.combine(date, datetime.min.time(), tzinfo=LOCAL_TZ).replace(hour=hm[0], minute=hm[1])
+    return dt.isoformat()
 
 
 def summarize_event(ev):
