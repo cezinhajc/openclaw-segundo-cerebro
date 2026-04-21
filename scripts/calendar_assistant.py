@@ -81,21 +81,38 @@ def summarize_event(ev):
     return f"- {start} | {ev.get('summary', '(sem título)')} | id={ev.get('id')}"
 
 
-def list_period(days, limit=20):
-    output = run_cli(['list', '--days', str(days), '--limit', str(limit)])
+def list_period(days=None, limit=20, time_min=None, time_max=None):
+    args = ['list', '--limit', str(limit)]
+    if time_min:
+        args += ['--time-min', time_min]
+    if time_max:
+        args += ['--time-max', time_max]
+    elif days is not None:
+        args += ['--days', str(days)]
+    output = run_cli(args)
     return json.loads(output)
+
+
+def day_bounds(date_expr):
+    date = resolve_date(date_expr)
+    if not date:
+        return None, None
+    start = datetime.combine(date, datetime.min.time(), tzinfo=LOCAL_TZ)
+    end = start + timedelta(days=1)
+    return start.isoformat(), end.isoformat()
 
 
 def handle_show(text):
     if 'hoje' in text:
-        days = 1
+        time_min, time_max = day_bounds('hoje')
+        events = list_period(limit=20, time_min=time_min, time_max=time_max)
     elif 'amanhã' in text or 'amanha' in text:
-        days = 2
+        time_min, time_max = day_bounds('amanhã')
+        events = list_period(limit=20, time_min=time_min, time_max=time_max)
     elif 'semana' in text:
-        days = 7
+        events = list_period(days=7)
     else:
-        days = 3
-    events = list_period(days)
+        events = list_period(days=3)
     if not events:
         return 'Sua agenda está vazia nesse período.'
     return '\n'.join(summarize_event(ev) for ev in events[:10])
