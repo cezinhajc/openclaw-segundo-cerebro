@@ -1,17 +1,23 @@
-# Projetos
+# Projetos — Vendas
 
-> Projetos ativos e concluídos desta área.
+> Projetos e frentes ligados a pipeline, follow-up e evolução comercial.
 
 ---
 
 ## Em andamento
 
-_Nenhum projeto ativo._
+### Estruturação do pipeline comercial
+- **Status:** Em andamento
+- **Objetivo:** criar uma visão mais clara de oportunidades, estágio, próximo passo e histórico
+
+### Padronização de follow-up
+- **Status:** Em andamento
+- **Objetivo:** reduzir perda de oportunidade por falta de acompanhamento consistente
 
 ## Concluídos
 
-_Nenhum projeto concluído._
+_Nenhum projeto concluído registrado ainda._
 
 ---
 
-_Atualizado: março 2026_
+_Atualizado: 2026-04-22_

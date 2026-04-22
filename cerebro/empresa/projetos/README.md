@@ -1,36 +1,30 @@
 # Projetos — Empresa
 
-> Projetos estratégicos cross-área. Mais recentes primeiro.
+> Projetos estratégicos cross-área da Simpia.
 
 ---
 
 ## Em andamento
 
-### Documentação de Processos (Fase 1)
+### Estruturação do cérebro operacional
 - **Status:** Em andamento
-- **Prazo:** 30/03/2026
-- **Responsável:** André Costa
-- **Objetivo:** Documentar 80% dos processos recorrentes da empresa
+- **Responsável:** Julio
+- **Objetivo:** consolidar contexto, áreas, agentes, rotinas e base versionada da empresa
 
-### Implementação de Agente IA
+### Organização operacional e executiva
 - **Status:** Em andamento
-- **Prazo:** 31/03/2026
-- **Responsável:** André Costa
-- **Objetivo:** Agente operacional conectado a dados e rotinas
+- **Responsável:** Julio
+- **Objetivo:** dar mais previsibilidade à agenda, às prioridades e à execução da rotina
 
-### Atualização FAQ de Suporte
-- **Status:** Planejado
-- **Prazo:** 25/03/2026
-- **Responsável:** Juliana
-- **Objetivo:** Expandir base de conhecimento de 10 para 30 perguntas
+### Saneamento de GitHub e versionamento
+- **Status:** Em andamento
+- **Responsável:** Julio + Lurdes
+- **Objetivo:** manter os repositórios utilizáveis, seguros e alinhados à operação real
 
 ## Concluídos
 
-### Migração para Hotmart
-- **Status:** ✅ Concluído em 05/03/2026
-- **Responsável:** Felipe Santos + Ricardo Mendes
-- **Resultado:** Todos os cursos migrados, checkout funcionando
+_Nenhum projeto concluído confirmado nesta base ainda._
 
 ---
 
-_Atualizado: março 2026_
+_Atualizado: 2026-04-22_
