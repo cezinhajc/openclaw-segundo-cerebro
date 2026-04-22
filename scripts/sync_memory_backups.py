@@ -10,6 +10,7 @@ from urllib.request import Request, urlopen
 
 WORKSPACE = Path('/root/.openclaw/workspace')
 ENV_FILE = WORKSPACE / '.env.memory-backup'
+DEFAULT_MEMORY_GLOB = 'memory/*.md'
 
 
 def load_env_file():
@@ -51,15 +52,22 @@ def http_request(method, path, payload=None, headers=None):
 
 
 def gather_memory_files():
-    files = [WORKSPACE / 'MEMORY.md']
+    files = []
+    long_term = WORKSPACE / 'MEMORY.md'
+    if long_term.exists() and long_term.is_file():
+        files.append(long_term)
     memory_dir = WORKSPACE / 'memory'
     if memory_dir.exists():
         files.extend(sorted(memory_dir.glob('*.md')))
     out = []
+    seen = set()
     for path in files:
         if not path.exists() or not path.is_file():
             continue
         rel = path.relative_to(WORKSPACE).as_posix()
+        if rel in seen:
+            continue
+        seen.add(rel)
         content = path.read_text(encoding='utf-8')
         kind = 'long_term' if rel == 'MEMORY.md' else 'daily_note'
         checksum = hashlib.sha256((rel + '\n' + content).encode('utf-8')).hexdigest()
@@ -76,14 +84,16 @@ def gather_memory_files():
 def sync_supabase(records):
     if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
         fail('SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are required')
-    payload = records
+    if not records:
+        print('No memory records found, nothing to sync')
+        return
     result = http_request(
         'POST',
         f'/rest/v1/{SUPABASE_TABLE}?on_conflict=checksum',
-        payload,
+        records,
         {'Prefer': 'resolution=merge-duplicates,return=representation'}
     )
-    print('Supabase upsert ok')
+    print(f'Supabase upsert ok: {len(records)} records prepared')
     print(result)
 
 
@@ -97,10 +107,10 @@ def cleanup_dreams_from_supabase():
 
 
 def git_commit_and_push():
-    subprocess.run(['git', 'add', 'scripts/sync_memory_backups.py', '.gitignore'], cwd=WORKSPACE, check=True)
+    subprocess.run(['git', 'add', 'scripts/sync_memory_backups.py', '.gitignore', '.env.memory-backup.example'], cwd=WORKSPACE, check=True)
     status = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=WORKSPACE)
     if status.returncode != 0:
-        subprocess.run(['git', 'commit', '-m', 'Add memory backup sync script'], cwd=WORKSPACE, check=True)
+        subprocess.run(['git', 'commit', '-m', 'Harden memory backup sync workflow'], cwd=WORKSPACE, check=True)
     subprocess.run(['git', 'push', '-u', GITHUB_REMOTE, GITHUB_BRANCH], cwd=WORKSPACE, check=True)
 
 

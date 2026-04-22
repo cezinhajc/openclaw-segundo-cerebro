@@ -3,6 +3,7 @@ node_modules/
 .env
 .env.*
 !.env.example
+!.env.memory-backup.example
 .gcal/client_secret.json
 .gcal/token.json
 memory/.dreams/
