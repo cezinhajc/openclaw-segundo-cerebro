@@ -1,29 +1,45 @@
 # Simpia Transformação Digital
 
 ## O que fazemos
-A Simpia Transformação Digital é uma empresa de prestação de serviços com sede em Aracaju, Sergipe. Fornece consultoria e produtos digitais para empresas, com foco em transformação digital, gestão moderna e cultura lean-agile dentro das organizações.
+A Simpia Transformação Digital é uma consultoria de transformação digital. Atua combinando gestão, operação, tecnologia e implementação prática para ajudar empresas a estruturarem processos, projetos e rotinas com mais clareza, controle e capacidade de execução.
 
-## Produtos
-- Consultoria em Agile Transformation
-- Implementação de ferramentas para transformação digital
-- Dashboards de gestão de projetos
-- Desenvolvimento de sites
-- Landing pages institucionais
-- Web apps, incluindo soluções como micro ERP
+## Oferta principal
+- Consultoria em transformação digital
+- Estruturação de processos e operação
+- Apoio em gestão de projetos
+- Implementação de ferramentas e fluxos digitais
+- Desenvolvimento de soluções sob demanda, como sites, landing pages, dashboards e web apps
 
 ## Público-alvo
-Empresas de diversos segmentos, incluindo hospitais, empresas de contabilidade e software houses.
+Empresas de serviços e operações que precisam organizar rotina, gestão e execução, incluindo clientes dos segmentos de saúde e estética.
+
+## Clientes ativos conhecidos
+- Hospital Cirurgia
+- Clínica Silhouette Estética Avançada
 
 ## Diferencial
-O principal diferencial da Simpia está na experiência prática de mais de 20 anos do fundador, somada à formação em Sistemas de Informação, expertise em gestão de projetos, certificação Agile Scrum ACP pelo PMI e MBA em Gestão Empresarial. Isso permite conectar inovação tecnológica aos desafios operacionais reais dos clientes, traduzindo tecnologia em eficiência de forma aplicada e compreensível.
+A Simpia combina visão de negócio com execução prática. O trabalho não fica só em diagnóstico: a proposta é traduzir tecnologia e gestão em rotina real, com implementação progressiva, organização operacional e apoio direto ao dono da operação.
 
-## Estágio da empresa
-A Simpia está entre pré-receita e crescimento. O foco atual é profissionalizar a estrutura da empresa para ganhar consistência operacional e, em seguida, escalar a receita com novos clientes.
+## Estágio atual
+A empresa está em fase de estruturação e consolidação operacional. O foco atual é organizar contexto, agenda, projetos, rotinas e base de conhecimento para ganhar consistência e escalar com mais segurança.
 
 ## Canais de aquisição
-[a preencher]
+- Relacionamento direto
+- Indicação
+- WhatsApp
+- Presença digital e materiais institucionais
 
-## Ferramentas
-[a preencher]
+## Ferramentas atuais
+- Notion
+- Trello
+- Google Sheets
+- WhatsApp
+- Google Calendar
+- GitHub
+- OpenClaw
 
-_Atualizado: 2026-04-12_
+## Idioma e fuso de referência
+- Idioma principal: português
+- Fuso de trabalho: Brasília / BRT (UTC-3)
+
+_Atualizado: 2026-04-22_

@@ -3,8 +3,13 @@
 ## Resumo executivo
 | Métrica | Valor |
 |---------|-------|
-| MRR / Faturamento | [a preencher] |
-| Clientes ativos | [a preencher] |
-| Canal principal | [a preencher] |
+| Clientes ativos | 2 confirmados |
+| Clientes mapeados | Hospital Cirurgia; Clínica Silhouette Estética Avançada |
+| Canal principal atual | Relacionamento direto e indicação |
+| Estrutura operacional | Julio + parceiros sob demanda |
 
-_Atualizado: [data]_
+## Observações
+- Ainda não há baseline financeira consolidada registrada neste repositório.
+- Quando houver rotina financeira estabilizada, incluir faturamento, margem, pipeline e metas por período.
+
+_Atualizado: 2026-04-22_
