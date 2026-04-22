@@ -1,59 +1,31 @@
-# Rotina: Briefing & Agenda do Dia
+# Rotina: Agenda do Dia
 
 ## O que faz
-Monta briefing personalizado pra cada área com: reuniões do dia, prazos vencendo, prioridades pendentes e alertas relevantes. Cada gestor chega e sabe exatamente o que precisa ser feito.
+Monta um briefing simples do dia para apoiar a rotina do Julio. O foco é destacar compromissos do Google Calendar, prioridades abertas, pendências relevantes e alertas práticos.
 
 ## Frequência
-1x/dia — 05:00 BRT (08:00 UTC), seg a sex
+1x por dia útil, pela manhã
 
-## Entrega
-- Briefing por área nos tópicos correspondentes do Telegram
-- Briefing executivo no tópico **⚙️ Operações** (topic_id: 6) às 07:00
+## Entrega esperada
+- resumo executivo em Operações
+- opcionalmente, recortes por área quando houver contexto suficiente
 
-## Exemplo de saída
-
-```
-📋 Briefing do Dia — 27/03/2026
-
-👤 Hugo (CEO):
-  09:00 — Call com investidor (prep: deck atualizado ✅)
-  14:00 — 1:1 com Felipe (vendas)
-  ⚠️ Prazo: proposta parceria TechCorp vence amanhã
-
-💰 Vendas:
-  • 4 deals pra fechar esta semana (R$ 18.400)
-  • 2 leads críticos precisam de follow-up hoje
-  • Meta do mês: 73% (faltam 4 dias)
-
-📢 Marketing:
-  • 5 posts agendados hoje
-  • Campanha "Hook #47" completou 3 dias — avaliar performance
-  • Newsletter #23 sai às 20h
-
-💻 Dev:
-  • Sprint dia 8/10 — 62% entregue ⚠️
-  • 2 PRs aguardando review
-  • Deploy programado pra sexta
-
-💬 CS:
-  • 7 tickets abertos sem resposta
-  • NPS ontem: 8.2 (2 detratores pra tratar)
-```
+## Conteúdo mínimo
+- compromissos do dia
+- pendências prioritárias
+- follow-ups que não podem passar
+- alertas sobre agenda, clientes ou projetos
 
 ## Dados necessários
-- Google Calendar API (reuniões)
-- Dados de todas as áreas (pipeline, sprint, tickets, etc.)
-- `empresa/gestao/pendencias.md`
+- Google Calendar
+- pendências registradas no cérebro
+- contexto recente de operação, vendas e atendimento
 
-## Configuração do Cron
-
-```
-Nome: agenda-do-dia
-Schedule: 0 8 * * 1-5  (5h BRT, seg-sex)
-Prompt: "Monta briefing do dia por área com reuniões, prazos e prioridades. Entrega às 7h em cada tópico."
-Tópico: ⚙️ Operações (topic_id: 6) + tópicos por área
-```
+## Observações
+- esta rotina deve começar simples e confiável
+- evitar prometer indicadores ou integrações que ainda não existem
+- expandir por área só quando a base estiver madura
 
 ---
 
-*Atualizado: março 2026*
+_Atualizado: 2026-04-22_

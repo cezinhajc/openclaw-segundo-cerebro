@@ -2,7 +2,8 @@
 
 | Rotina | Frequência | O que faz |
 |--------|-----------|-----------|
-| `consolidacao-memoria` | Diário 2h | Consolida notas diárias no Cérebro, atualiza MAPAs, limpa temporários |
-| `agenda-do-dia` | Seg-Sex 5h (entrega 7h) | Monta briefing personalizado por área com reuniões, prazos e prioridades |
-| `heartbeat` | A cada 1h | Loop de orquestração — checa estado, decide ações, replaneja, recupera erros |
-| `sync-github` | A cada 6h | Sincroniza alterações locais com o repositório GitHub |
+| `consolidacao-memoria` | Diário | Consolida aprendizados e contexto útil no cérebro operacional |
+| `agenda-do-dia` | Seg-Sex pela manhã | Gera visão prática do dia com agenda e prioridades principais |
+| `heartbeat` | Periódico | Mantém acompanhamento do estado geral, pendências e próximos passos |
+| `sync-github` | Diário | Funciona como rede de segurança para sincronização do repositório |
+| `gestao-agentes-semanal` | Semanal | Revisa evolução dos agentes e do repositório de forma simples |

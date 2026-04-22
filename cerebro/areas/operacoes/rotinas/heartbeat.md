@@ -1,46 +1,26 @@
-# Rotina: Heartbeat (Verificação Periódica)
+# Rotina: Heartbeat
 
 ## O que faz
-O heartbeat é o **loop de orquestração** que mantém o agente vivo e tomando decisões. Não é health check — é o que faz o agente ser autônomo, e não só reativo. A cada batida ele pensa, decide e age. Verificar saúde é só um dos checks.
+É a verificação periódica que ajuda o agente a não ficar só reativo. Serve para checar contexto recente, pendências, falhas e próximos passos úteis.
 
 ## Frequência
-A cada 1h (configurado no OpenClaw: `heartbeat.every: "1h"`)
+Periódica, conforme configuração do agente
 
-## O que acontece a cada batida
+## O que deve observar
+- mensagens novas ou pendências recentes
+- tarefas que ficaram paradas
+- necessidade de replanejamento
+- problemas simples que podem ser resolvidos sem escalar
+- alertas reais que merecem atenção do Julio
 
-A cada ciclo o heartbeat **pensa e decide**:
+## Princípio de uso
+- se estiver tudo bem, ficar em silêncio
+- se houver algo importante, avisar com objetividade
+- evitar agir como se toda batida exigisse resposta ou ação complexa
 
-1. **Checa novas mensagens/eventos** — Chegou input novo? Se sim, processa
-2. **Decide próximas ações** — Avalia estado atual e define o que fazer agora
-3. **Executa tarefas pendentes** — Roda o que ficou parado, retoma processos
-4. **Replaneja se necessário** — Contexto mudou? Adapta o plano
-5. **Tenta se recuperar de erros** — Se algo falhou, tenta resolver antes de alertar
-6. **Verifica saúde** — Crons rodaram? Pendências travadas? (é só 1 dos checks, não o propósito)
-
-## Ações possíveis
-- **Tudo OK:** continua o ciclo em silêncio — o agente segue vivo
-- **Nova decisão:** executa tarefa, dispara skill, replaneja ação
-- **Erro detectado:** tenta recuperar sozinho. Se não consegue → alerta o time
-  - Pendência de vendas → 💰 Vendas (topic_id: 4)
-  - Cron de marketing com erro → 📢 Marketing (topic_id: 3)
-  - Problema de operações → ⚙️ Operações (topic_id: 6)
-
-## Configuração no OpenClaw
-
-```json
-{
-  "agents": {
-    "defaults": {
-      "heartbeat": {
-        "every": "1h"
-      }
-    }
-  }
-}
-```
-
-O heartbeat lê o arquivo `agentes/assistente/HEARTBEAT.md` a cada execução.
+## Observação
+O heartbeat deve ser útil e leve. Não é para inventar trabalho, e sim para manter continuidade com bom senso.
 
 ---
 
-*Atualizado: março 2026*
+_Atualizado: 2026-04-22_
