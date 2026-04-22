@@ -1,5 +1,11 @@
-tmp_supabase_memory_sync.py
-.env.memory-backup
-.env.google-calendar
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+.gcal/client_secret.json
+.gcal/token.json
+memory/.dreams/
+antonio-discord-bot/.env
+antonio-discord-bot/node_modules/
 openclaw-segundo-cerebro/
-.gcal/
