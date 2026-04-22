@@ -1,17 +1,17 @@
 # Projetos — Tráfego Pago
 
-> Projetos ativos e concluídos.
+> Sub-área preservada como referência estrutural. Só deve receber projetos reais quando a operação de tráfego pago da Simpia estiver ativa e com contexto confirmado.
 
 ---
 
 ## Em andamento
 
-_Nenhum projeto ativo._
+_Nenhum projeto real registrado nesta sub-área até o momento._
 
 ## Concluídos
 
-_Nenhum projeto concluído._
+_Nenhum projeto concluído confirmado nesta sub-área._
 
 ---
 
-_Atualizado: março 2026_
+_Atualizado: 2026-04-22_
