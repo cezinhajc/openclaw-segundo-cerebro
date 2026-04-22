@@ -1,95 +1,29 @@
-# OpenClaw — Contexto da Empresa
+# Simpia Transformação Digital
 
-> Fonte de verdade sobre o negócio. O agente lê este arquivo antes de qualquer análise ou decisão.
-
----
-
-## O Que Fazemos
-
-A **OpenClaw** é uma EdTech brasileira especializada em **agentes de IA para negócios**. Ensinamos empreendedores e pequenas empresas a implementar sistemas de agentes de IA que trabalham de forma autônoma — automatizando operações, marketing e atendimento.
-
-**Missão:** Tornar agentes de IA acessíveis para qualquer empresa, não só para as grandes.
-
-**Posicionamento:** Implementação prática de IA nos negócios — do zero ao sistema rodando, sem precisar de time técnico.
-
----
+## O que fazemos
+A Simpia Transformação Digital é uma empresa de prestação de serviços com sede em Aracaju, Sergipe. Fornece consultoria e produtos digitais para empresas, com foco em transformação digital, gestão moderna e cultura lean-agile dentro das organizações.
 
 ## Produtos
+- Consultoria em Agile Transformation
+- Implementação de ferramentas para transformação digital
+- Dashboards de gestão de projetos
+- Desenvolvimento de sites
+- Landing pages institucionais
+- Web apps, incluindo soluções como micro ERP
 
-| Produto | Preço | Formato | Status |
-|---------|-------|---------|--------|
-| TechFlow Starter | R$ 97 | Curso online gravado (4h) | Ativo |
-| TechFlow Pro | R$ 297/mês | Plataforma SaaS + suporte | Ativo |
-| TechFlow Enterprise | R$ 1.497/mês | Plataforma + onboarding dedicado + SLA | Ativo |
+## Público-alvo
+Empresas de diversos segmentos, incluindo hospitais, empresas de contabilidade e software houses.
 
-### Detalhes dos Produtos
+## Diferencial
+O principal diferencial da Simpia está na experiência prática de mais de 20 anos do fundador, somada à formação em Sistemas de Informação, expertise em gestão de projetos, certificação Agile Scrum ACP pelo PMI e MBA em Gestão Empresarial. Isso permite conectar inovação tecnológica aos desafios operacionais reais dos clientes, traduzindo tecnologia em eficiência de forma aplicada e compreensível.
 
-**TechFlow Starter**
-- 8 aulas gravadas — do zero à primeira automação
-- Plataforma: Hotmart
-- Público: PMEs que querem começar com automação
-- Diferencial: implementa o primeiro fluxo em 1 tarde
+## Estágio da empresa
+A Simpia está entre pré-receita e crescimento. O foco atual é profissionalizar a estrutura da empresa para ganhar consistência operacional e, em seguida, escalar a receita com novos clientes.
 
-**TechFlow Pro**
-- Plataforma completa de automação com IA
-- Suporte via chat
-- ~800 usuários ativos
-- Inclui: workflows ilimitados, integrações, relatórios automáticos
-
-**TechFlow Enterprise**
-- Tudo do Pro + onboarding personalizado
-- Gerente de sucesso dedicado
-- SLA de 4h para suporte crítico
-- Integrações customizadas com ERPs e CRMs
-
----
-
-## Público-Alvo
-
-**Perfil principal:**
-- Empreendedores brasileiros, 28–50 anos
-- Donos de PMEs ou negócios digitais em crescimento
-- Querem usar IA mas não sabem por onde começar
-- Já ouviram falar de ChatGPT mas não viram resultado prático no negócio
-
-**Dores:**
-- "Fico re-explicando contexto pro ChatGPT toda vez"
-- "Quero automatizar mas não sei programar"
-- "Já tentei ferramentas de IA mas nada se integra com minha operação"
-- "Minha equipe usa IA de forma aleatória, sem padrão"
-
----
-
-## Canais de Aquisição
-
-1. **Meta Ads** — principal canal pago (Instagram + Facebook)
-2. **YouTube** — conteúdo orgânico, autoridade e nutrição
-3. **Instagram Orgânico** — engajamento e comunidade
-4. **Indicação** — usuários TechFlow Pro indicando outros
-5. **Parceiros** — integradores e consultores de IA
-
----
+## Canais de aquisição
+[a preencher]
 
 ## Ferramentas
+[a preencher]
 
-| Ferramenta | Uso |
-|------------|-----|
-| Meta Ads | Campanhas de tráfego pago |
-| Kiwify / Lastlink | Venda e entrega dos produtos |
-| Telegram | Suporte, comunidade e agentes |
-| GitHub | Cérebro da empresa (este repositório) |
-| Google Sheets | Relatórios financeiros e pipeline |
-| Notion | Gestão interna e CRM de leads |
-| Instagram / YouTube | Conteúdo e distribuição |
-
----
-
-## Informações Operacionais
-
-- **Timezone:** America/Sao_Paulo (UTC-3)
-- **Idioma:** Português brasileiro
-- **Sede:** São Paulo, SP (operação 100% remota)
-
----
-
-*Atualizado: março 2026*
+_Atualizado: 2026-04-12_
